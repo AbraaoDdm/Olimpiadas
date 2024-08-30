@@ -3,7 +3,7 @@ const modalidades = ["Ginástica", "Judô", "Surfe", "Vôlei","Futebol"];
 const escolha = 1;
 //número que represente o esporte do seu grupo (0,1,2,3,4)
 document.querySelector('body').style.backgroundImage = "url('img/"+modalidades[escolha]+".png')";  // imagem de fundo
-document.querySelector('title').textContent = "Missão Olímpica | "+modalidades[escolha]; //Título da página html
+document.querySelector('title').textContent = "AbraaoDdm"+modalidades[escolha]; //Título da página html
 document.querySelector('h1').innerHTML = "Missão Olímpica <br> "+modalidades[escolha]; // título do texto
 //elementos base existentes na tela para serem alterados.
 
